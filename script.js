@@ -27,7 +27,7 @@ if (localStorage.getItem("isLoggedIn") === "true") {
 // Load Data
 document.getElementById("current-date").innerText = new Date().toLocaleDateString();
 
-const students = ["Mehfooz", "Pushkar kr.", "Khushi","Khushal garg","Sheetal","Harsh kr.","Sameer kr.","Aayush kr.","Vipin","Riya kumari","Asmita kr.","Madhu","Deepali","Anuj Tomar","Sahil","Md. Anas","Isha Devi","Suraj kr sh.","Kuldeep","Pooja kumari","Vinay Yadav","Sandeep","Vishal kr.","Anjali","Suraj","Aditya","Khushboo","Rahul","Krish","Gaurav","Menka","Muskan sh.","Anita","Yogita","Suraj kr.","Vishal","Khushi Gupta","Khushi","Aarti","Poonam","Sachin"];
+const students = ["Mehfooz", "Pushkar kr.", "Khushi 1","Khushal garg","Sheetal","Harsh kr.","Sameer kr.","Aayush kr.","Vipin","Riya kumari","Asmita kr.","Madhu","Deepali","Anuj Tomar","Sahil","Md. Anas","Isha Devi","Suraj kr sh.","Kuldeep","Pooja kumari","Vinay Yadav","Sandeep","Vishal kr.","Anjali","Suraj","Aditya","Khushboo","Rahul","Krish","Gaurav","Menka","Muskan sh.","Anita","Yogita","Suraj kr.","Vishal","Khushi Gupta","Khushi","Aarti","Poonam","Sachin"];
 const attendanceData = JSON.parse(localStorage.getItem("attendance")) || {};
 const attendanceHistory = JSON.parse(localStorage.getItem("attendanceHistory")) || {};
 const applicationHistory = JSON.parse(localStorage.getItem("applicationHistory")) || {};
